@@ -12,5 +12,5 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
-app.component("Header", Header)
+app.component("Header_Component", Header)
 app.mount('#app')

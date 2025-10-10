@@ -1,36 +1,31 @@
 [
-  {"name": "Couture1",
-  "preis": 5.50},
-  {"name": "Couture2",
-  "preis": 5.50},
-  {"name": "Couture3",
-  "preis": 5.50},
-  {"name": "Couture4",
-  "preis": 5.50},
-  {"name": "Couture5",
-  "preis": 5.50},
-  {"name": "Couture6",
-  "preis": 5.50},
-  {"name": "Couture7",
-  "preis": 5.50},
-  {"name": "Couture8",
-  "preis": 5.50},
-  {"name": "Couture9",
-  "preis": 5.50},
-  {"name": "Couture10",
-  "preis": 5.50},
-  {"name": "Couture11",
-  "preis": 5.50},
-  {"name": "Couture12",
-  "preis": 5.50},
-  {"name": "Couture13",
-  "preis": 5.50},
-  {"name": "Couture14",
-  "preis": 5.50},
-  {"name": "Couture15",
-  "preis": 5.50},
-  {"name": "Einsiedler Chlouschter Brout",
-  "preis": 5.50},
+  {
+    "id": 1,
+    "name": "Einsiedler Chlouschter Brout",
+    "price": 5.50,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+  },
+  {
+  "id": 2, 
+  "name": "Nussgipfel",
+  "price": 3.50,
+  "image": "https://www.ichkoche.at/img/rezept/800x600/nuessgipfel-1.jpg"
+},
+  {
+  "id": 3,
+  "name": "Veganes Gemüse",
+  "price": 99.99, 
+  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+  },
+  {
+  "id": 4,
+  "name": "Höreli Bajass",
+  "price": 555.55, 
+  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+  },
+
+  
+  {"name": "Mandelgipfel"},
   {"name": "Schoko Keks",
   "preis": 2.50},
   {"name": "Cookie",

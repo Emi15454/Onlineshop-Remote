@@ -10,14 +10,11 @@
         <li><a href="#">Über uns</a></li>
         <li><a href="#">Kontakt</a></li>
         <li> <div class="cart">
-      <a href="#">
-        🛒 <span class="cart-count">3</span>
-      </a>
     </div>
         </li>
       </ul>
     </nav>
-    
+
   </header>
 </template>
 
@@ -70,16 +67,5 @@ export default {
   font-size: 1.2rem;
   position: relative;
   margin-left: 1000%;
-}
-
-.cart-count {
-  background-color: #ff6600;
-  color: white;
-  border-radius: 50%;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.8rem;
-  position: absolute;
-  top: -8px;
-  right: -10px;
 }
 </style>
