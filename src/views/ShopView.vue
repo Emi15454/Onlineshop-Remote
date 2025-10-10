@@ -34,12 +34,14 @@ const cartTotal = computed(() => cart.value.reduce((s, p) => s + p.price, 0).toF
   <main>
     <section class="products">
       <h2>Produkte</h2>
-      <ul>
-        <li v-for="p in store.products" :key="p.id">
-          {{ p.name }} — {{ p.price }} - {{p.image}} CHF
-          <button @click="addToCart(p)">In den Warenkorb</button>
+        <li v-for="product in store.products" :key="product.id">
+          <div class="product-card">
+               <img :src="product.image" :alt="product.alt" class="product-image" /> // Bilder sollen später noch automatisch zugeschnitten werden
+                <h3 class="product-name">{{ product.name }}</h3>
+                <p class="product-price">{{ product.price.toFixed(2) }} CHF</p>
+                <button @click="addToCart(p)">In den Warenkorb</button>
+          </div>
         </li>
-      </ul>
     </section>
 
     <aside class="warenkorb">
@@ -60,4 +62,5 @@ const cartTotal = computed(() => cart.value.reduce((s, p) => s + p.price, 0).toF
 .site-header { display:flex; justify-content:space-between; align-items:center; padding:1rem; }
 .products { margin: 1rem 0; }
 .warenkorb { border-left: 1px solid #ddd; padding-left:1rem; }
+.product-image { width: 100px; height: 100px;  object-fit: cover; }
 </style>
