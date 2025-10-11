@@ -333,6 +333,7 @@
   "id": 4,
   "name": "Höreli Bajass",
   "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+  "description": "Dies ist ein tolles Produkt, das Sie unbedingt kaufen sollten!"
   }
 ]

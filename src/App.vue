@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
 import Header from './components/Header.vue';
 
 </script>
@@ -10,7 +10,6 @@ import Header from './components/Header.vue';
 </template>
 
 <style scoped>
-
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -63,5 +62,4 @@ nav a:first-of-type {
   }
 
 }
-
 </style>

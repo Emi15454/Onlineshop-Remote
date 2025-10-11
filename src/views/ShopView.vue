@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref, computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useProductStore } from '../stores/productStore'
 
 const store = useProductStore()
@@ -20,6 +20,17 @@ function removeFromCart(index) {
 const cartCount = computed(() => cart.value.length)
 const cartTotal = computed(() => cart.value.reduce((s, p) => s + p.price, 0).toFixed(2))
 
+
+const isClicked = ref(false);
+
+function handleClick() {
+  isClicked.value = true;
+
+  // Optional: nach 1 Sekunde wieder zurücksetzen
+  setTimeout(() => {
+    isClicked.value = false;
+  }, 1000);
+}
 </script>
 
 <template>
@@ -34,14 +45,16 @@ const cartTotal = computed(() => cart.value.reduce((s, p) => s + p.price, 0).toF
   <main>
     <section class="products">
       <h2>Produkte</h2>
-        <li v-for="product in store.products" :key="product.id">
-          <div class="product-card">
-               <img :src="product.image" :alt="product.alt" class="product-image" /> // Bilder sollen später noch automatisch zugeschnitten werden
-                <h3 class="product-name">{{ product.name }}</h3>
-                <p class="product-price">{{ product.price.toFixed(2) }} CHF</p>
-                <button @click="addToCart(p)">In den Warenkorb</button>
-          </div>
-        </li>
+      <div class="product-grid">
+        <div v-for="product in store.products" :key="product.id" class="product-card">
+          <img :src="product.image" :alt="product.alt" class="product-image" />
+          <h3 class="product-name">{{ product.name }}</h3>
+          <p class="product-price">{{ product.price.toFixed(2) }} CHF</p>
+          <button :class="{ clicked: isClicked }" @click="addToCart(), handleClick()">
+            {{ isClicked ? "Hinzugefügt!" : "In den Warenkorb" }}
+          </button>
+        </div>
+      </div>
     </section>
 
     <aside class="warenkorb">
@@ -59,8 +72,43 @@ const cartTotal = computed(() => cart.value.reduce((s, p) => s + p.price, 0).toF
 </template>
 
 <style scoped>
-.site-header { display:flex; justify-content:space-between; align-items:center; padding:1rem; }
-.products { margin: 1rem 0; }
-.warenkorb { border-left: 1px solid #ddd; padding-left:1rem; }
-.product-image { width: 100px; height: 100px;  object-fit: cover; }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.products {
+  margin: 1rem 0;
+}
+
+.warenkorb {
+  border-left: 1px solid #ddd;
+  padding-left: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-inline: 10%;
+}
+
+.product-card {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+button.clicked {
+  background-color: #38c172;
+  /* grün wenn geklickt */
+}
 </style>

@@ -1,9 +1,7 @@
 <script setup>
-import ShopView from './ShopView.vue'
+import ShopView from './ShopView.vue';
 </script>
 
 <template>
-  <main>
-    <ShopView />
-  </main>
+  <ShopView />
 </template>
