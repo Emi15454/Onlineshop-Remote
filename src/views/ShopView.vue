@@ -50,7 +50,7 @@ function handleClick() {
           <img :src="product.image" :alt="product.alt" class="product-image" />
           <h3 class="product-name">{{ product.name }}</h3>
           <p class="product-price">{{ product.price.toFixed(2) }} CHF</p>
-          <button :class="{ clicked: isClicked }" @click="addToCart(), handleClick()">
+          <button :class="{ clicked: isClicked }" @click="addToCart(product), handleClick(product)">
             {{ isClicked ? "Hinzugefügt!" : "In den Warenkorb" }}
           </button>
         </div>

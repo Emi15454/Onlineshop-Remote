@@ -5,24 +5,19 @@
     </div>
     <nav class="nav">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><router-link to="/">Home</router-link></li>
         <li><a href="#">Produkte</a></li>
         <li><a href="#">Über uns</a></li>
         <li><a href="#">Kontakt</a></li>
-        <li> <div class="cart">
-    </div>
+        <li>
+          <div class="cart">
+          </div>
         </li>
       </ul>
     </nav>
 
   </header>
 </template>
-
-<script>
-export default {
-  name: "Header",
-};
-</script>
 
 <style scoped>
 .header {
@@ -31,7 +26,7 @@ export default {
   align-items: center;
   padding: 1rem 2rem;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
 }
 
