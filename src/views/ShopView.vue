@@ -31,6 +31,14 @@ function handleClick() {
     isClicked.value = false;
   }, 1000);
 }
+const filterProducts = ref('');
+
+
+const filteredProductsBySearch = computed(() =>
+  filterProducts.value != ''
+    ? store.products.filter(product => product == filterProducts.value || product.name.toLowerCase().includes(filterProducts.value.toLowerCase()))
+    : store.products
+);
 </script>
 
 <template>
@@ -45,8 +53,9 @@ function handleClick() {
   <main>
     <section class="products">
       <h2>Produkte</h2>
+      <textarea v-model="filterProducts" placeholder="Suche nach Produktname..."></textarea>
       <div class="product-grid">
-        <div v-for="product in store.products" :key="product.id" class="product-card">
+        <div v-for="product in filteredProductsBySearch" :key="product.id" class="product-card">
           <img :src="product.image" :alt="product.alt" class="product-image" />
           <h3 class="product-name">{{ product.name }}</h3>
           <p class="product-price">{{ product.price.toFixed(2) }} CHF</p>

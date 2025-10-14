@@ -1,339 +1,142 @@
 [
   {
+    "category": "Brot",
     "id": 1,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg",
     "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+    "price": 5.50
   },
   {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
+    "category": "Gebäck",
+    "id": 2,
+    "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655",
+    "name": "Nussgipfel",
+    "price": 3.50
   },
   {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+    "category": "Gemüse",
+    "id": 3,
+    "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg",
+    "name": "Veganes Gemüse",
+    "price": 99.99
   },
   {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+    "category": "Random",
+    "id": 4,
+    "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+    "name": "Höreli Bajass",
+    "price": 555.55
   },
   {
-    "id": 1,
+    "category": "Brot",
+    "id": 5,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg",
     "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+    "price": 5.50
   },
   {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+    "category": "Gebäck",
+    "id": 6,
+    "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655",
+    "name": "Nussgipfel",
+    "price": 3.50
   },
   {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+    "category": "Gemüse",
+    "id": 7,
+    "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg",
+    "name": "Veganes Gemüse",
+    "price": 99.99
   },
   {
-    "id": 1,
+    "category": "Random",
+    "id": 8,
+    "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+    "name": "Höreli Bajass",
+    "price": 555.55
+  },
+  {
+    "category": "Brot",
+    "id": 9,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg",
     "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+    "price": 5.50
   },
   {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+    "category": "Gebäck",
+    "id": 10,
+    "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655",
+    "name": "Nussgipfel",
+    "price": 3.50
   },
   {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+    "category": "Gemüse",
+    "id": 11,
+    "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg",
+    "name": "Veganes Gemüse",
+    "price": 99.99
   },
   {
-    "id": 1,
+    "category": "Random",
+    "id": 12,
+    "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+    "name": "Höreli Bajass",
+    "price": 555.55
+  },
+  {
+    "category": "Brot",
+    "id": 13,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg",
     "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+    "price": 5.50
   },
   {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+    "category": "Gebäck",
+    "id": 14,
+    "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655",
+    "name": "Nussgipfel",
+    "price": 3.50
   },
   {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+    "category": "Gemüse",
+    "id": 15,
+    "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg",
+    "name": "Veganes Gemüse",
+    "price": 99.99
   },
   {
-    "id": 1,
+    "category": "Random",
+    "id": 16,
+    "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+    "name": "Höreli Bajass",
+    "price": 555.55
+  },
+  {
+    "category": "Brot",
+    "id": 17,
+    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg",
     "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
+    "price": 5.50
   },
   {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
+    "category": "Gebäck",
+    "id": 18,
+    "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655",
+    "name": "Nussgipfel",
+    "price": 3.50
   },
   {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
+    "category": "Gemüse",
+    "id": 19,
+    "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg",
+    "name": "Veganes Gemüse",
+    "price": 99.99
   },
   {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Einsiedler Chlouschter Brout",
-    "price": 5.50,
-    "image": "https://volkermampft.de/wp-content/uploads/2024/05/Palyanytsya-ukrainischer-Brot-Klassiker-mit-Buttermilch.jpg"
-  },
-  {
-  "id": 2, 
-  "name": "Nussgipfel",
-  "price": 3.50,
-  "image": "https://rezepte.lemenu.ch/images/promo_images/spree/tx_netvlmerdb_recipes/000/011/602/promo/LM202110_87.jpg?1682063655"
-},
-  {
-  "id": 3,
-  "name": "Veganes Gemüse",
-  "price": 99.99, 
-  "image": "https://www.deutschlandistvegan.de/wp-content/uploads/2021/01/gesundes-gem%C3%BCse-2.jpg"
-  },
-  {
-  "id": 4,
-  "name": "Höreli Bajass",
-  "price": 555.55, 
-  "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
-  "description": "Dies ist ein tolles Produkt, das Sie unbedingt kaufen sollten!"
+    "category": "Random",
+    "id": 20,
+    "image": "https://www.stv-einsiedeln.ch/site/assets/files/1307/bajazz.jpg",
+    "name": "Höreli Bajass",
+    "price": 555.55
   }
 ]
